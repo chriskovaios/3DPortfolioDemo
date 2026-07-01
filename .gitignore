@@ -1,0 +1,10 @@
+# This project has zero npm dependencies — node_modules should never appear.
+node_modules/
+npm-debug.log*
+.DS_Store
+*.local
+dist/
+raw/
+
+# Local dev note — not published to the demo repo
+README.md

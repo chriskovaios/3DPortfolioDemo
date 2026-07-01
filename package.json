@@ -1,0 +1,22 @@
+{
+  "name": "3d-portfolio",
+  "version": "1.0.0",
+  "description": "Dark cinematic 3D portfolio. Scroll-driven Three.js specimen sequence with drag + WASD rotation and snap checkpoints. Zero runtime dependencies.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js",
+    "compress-models": "node compress-models.js",
+    "deploy": "node deploy.js",
+    "clean-history": "node delete-repo-history.js",
+    "audit": "npm audit"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": ["portfolio", "three.js", "webgl", "static-site", "zero-dependency"],
+  "license": "UNLICENSED"
+}
