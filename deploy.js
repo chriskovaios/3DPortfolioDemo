@@ -19,7 +19,7 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
-const REMOTE_URL = 'https://github.com/chriskovaios/3DPortoflioDemo.git';
+const REMOTE_URL = 'https://github.com/chriskovaios/3DPortfolioDemo.git';
 const BRANCH = 'main';
 
 const root = dirname(fileURLToPath(import.meta.url));
